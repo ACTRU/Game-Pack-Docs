@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Data Collection Policy – MIND GamePack</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2em; }
+    h1 { color: #2c3e50; }
+    h2 { color: #34495e; }
+    p, ul { line-height: 1.6; }
+    ul { margin-left: 1.5em; }
+  </style>
+</head>
+<body>
+  <h1>Data Collection Policy</h1>
+  <p>
+    <strong>Effective Date:</strong> October 21, 2025
+    <strong> Version: </strong> 1.0
+</p>
+  <p>
+    The MIND GamePack application is used exclusively in the context of research studies. This policy outlines the types of data collected through the application, the methods of collection, and the purpose of data use.
+  </p>
+
+  <h2>Types of Data Collected</h2>
+  <ul>
+    <li>Gameplay metrics (e.g., scores, completion times, accuracy)</li>
+    <li>Daily self-reported survey responses (e.g., mood, sleep, energy, memory)</li>
+    <li>Session metadata (e.g., timestamps, game type played)</li>
+    <li>No biometric data (e.g., facial, fingerprint) or location data (e.g., latitude, longitude) is collected by the device/apparatus.</li>
+  </ul>
+
+  <h2>Collection Method</h2>
+  <ul>
+    <li>Data collection is automatically triggered upon starting a game session.</li>
+    <li>Data collection continues throughout the game session, collection variables highlighted above.</li>
+    <li>Upon completion of a game session, data by default is transmitted to MGB GCP Instance. If MGB GCP Instance is unable to be reached, data is stored locally on device until the completion of another game session, where the device will again try to transmit the current session, and all cached data retained on the device.</li>
+    <li>Survey responses are collected once per day before gameplay begins.</li>
+    <li>As previously mentioned, if Wi-Fi is unavailable, data is cached locally and transmitted once a connection is restored.</li>
+  </ul>
+
+  <h2>Data Storage and Management</h2>
+  <ul>
+    <li>All data is de-identified before transmission.</li>
+    <li>Data is stored securely on a local RDBMS and a cloud-based GCP instance managed by Massachusetts General Hospital (MGH).</li>
+  </ul>
+
+  <h2>Purpose of Data Collection</h2>
+  <ul>
+    <li>To assess cognitive variability.</li>
+    <li>To support research in aging, Alzheimer’s disease, and related dementias.</li>
+    <li>To improve the design and usability of the MIND GamePack platform.</li>
+  </ul>
+
+  <h2>Consent and Withdrawal</h2>
+  <ul>
+    <li>Participants provide informed consent prior to using the application.</li>
+    <li>Participants may withdraw at any time and stop data collection.</li>
+    <li>De-identified data already collected may be retained for research purposes.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>
+    For questions about data collection, please contact: <a mailto:MINDGamePack@mgb.orgMINDGamePack@mgb.org</a>
+  </p>
+</body>
+</html>
